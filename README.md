@@ -1,5 +1,5 @@
 # Plagiarism Detection
-## *lagiarism Detection: Udacity - Machine Learning Engineer Nanodegree Program*
+## *Plagiarism Detection: Udacity - Machine Learning Engineer Nanodegree Program*
 This repository contains code and associated files for deploying a plagiarism detector using AWS SageMaker.
 
 ## Project Overview
@@ -8,30 +8,30 @@ This project builds a plagiarism detector that examines a text file and performs
 ## Software and Libraries
 This project uses the following software and Python libraries:
 
-Python
-NumPy
-pandas
-scikit-learn
-Amazon SageMaker
+* Python
+* NumPy
+* pandas
+* scikit-learn
+* Amazon SageMaker
 
 This project will be broken down into three main notebooks:
 
 ## Notebook 1: Data Exploration
 
-Load in the corpus of plagiarism text data.
-Explore the existing data features and the data distribution.
-This first notebook is not required in your final project submission.
+* Load in the corpus of plagiarism text data.
+* Explore the existing data features and the data distribution.
+* This first notebook is not required in your final project submission.
 
 ## Notebook 2: Feature Engineering
 
-Clean and pre-process the text data.
-Define features for comparing the similarity of an answer text and a source text, and extract similarity features.
-Select "good" features, by analyzing the correlations between different features.
-Create train/test .csv files that hold the relevant features and class labels for train/test data points.
+* Clean and pre-process the text data.
+* Define features for comparing the similarity of an answer text and a source text, and extract similarity features.
+* Select "good" features, by analyzing the correlations between different features.
+* Create train/test .csv files that hold the relevant features and class labels for train/test data points.
 
 ## Notebook 3: Train and Deploy Your Model in SageMaker
 
-Upload your train/test feature data to S3.
-Define a binary classification model and a training script.
-Train your model and deploy it using SageMaker.
-Evaluate your deployed classifier.
+* Upload your train/test feature data to S3.
+* Define a binary classification model and a training script.
+* Train your model and deploy it using SageMaker.
+* Evaluate your deployed classifier.
